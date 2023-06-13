@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lan="en-US">
+
+<head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Voting Process</title>
+</head>
+
+<body>
+    <form>
+        <div id="age verification">We need to verify that you are over 18 years of age before we can allow you to vote.
+            <p> What is your age?</p>
+            <input id="age" type="number">
+            <button type="submit">Submit!</button>
+
+        </div>
+    </form>
+
+    <div id="votingProcess" class="hidden">
+        <ul>
+            <li>Voting Station 1</li>
+            <li>Voting Station 2</li>
+            <li>Voting Station 3</li>
+        </ul>
+    </div>
+
+    <div id="underAgeMessage" class="hidden">
+        <p>Sorry, your too young to vote at this time.</p>
+    </div>
+    
+</body>
